@@ -64,9 +64,9 @@ module Vehicles
       when :eq
         @table[kind].gteq(data).and(@table[kind].lteq(data))
       when :gt
-        table[kind].gt(data)
+        @table[kind].gt(data)
       when :lt
-        table[kind].lt(data)
+        @table[kind].lt(data)
       end
     end
   end
