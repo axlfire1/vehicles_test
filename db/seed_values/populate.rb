@@ -2,7 +2,7 @@ brands = [
   {
     # id: 1,
     name: 'VW'
-  }
+  },
   {
     name: 'Chevrolet'
   },
@@ -18,7 +18,7 @@ models = [
     # id: 1,
     vehicle_brand_id: 1,
     name: 'Golf'
-  }
+  },
   {
     vehicle_brand_id: 2,
     name: 'Blazer'
