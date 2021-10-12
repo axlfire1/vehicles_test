@@ -45,3 +45,4 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 gem 'active_model_serializers'
 gem 'dry-validation', '1.6'
 gem 'errors_helper', '0.1.1'
+gem 'rack-cors', :require => 'rack/cors'
